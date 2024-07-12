@@ -1,0 +1,30 @@
+h1{
+    color: rgba(255, 255, 255, 0.685);
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h4{
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.432);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    color: rgb(184, 184, 184);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h5{
+    color: rgba(255, 255, 255, 0.432);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+body{
+    background-color: black;
+}
+li{
+    color: rgba(255, 255, 255, 0.432);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h3{
+    color: rgb(184, 184, 184);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

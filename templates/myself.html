@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>about myself</title>
+        <link rel="stylesheet"href="{{ url_for('static',filename='css/styles.css') }}">
+    </head>
+    <body>
+        <h1>HI im Ajin Jayan </h1>
+        <br>
+        <h4>im from kollam,kerala</h4>
+        <br>
+        <h5>
+            <strong> studying in younus college of engineering and technology</strong>
+        </h5>
+        <h2>INFO</h2>
+        <ol>
+            <li>best in BGMI</li>
+            <li>finished farcry3 :)</li>
+            <li>also likes programming</li>
+        </ol>
+        <h3>ABOUT BGMI</h3>
+        <ul>
+            <li>accuired ACE in C12S14</li>
+            <li>have 4 royal passes</li>
+        </ul> 
+        <nav>
+            <ul>
+                <li>
+                    <a href="{{url_for('BGMI')}}">bgmi</a>
+                </li>
+                <li>
+                    <a href="{{url_for('song')}}">song</a>
+                </li>
+                <li>
+                    <a href="{{url_for('base')}}">base</a>   
+                </li>
+                <li>
+                    <a href="{{url_for('about')}}">about</a>
+                </li>
+            </ul>
+        </nav>       
+    </body>
+</html>
